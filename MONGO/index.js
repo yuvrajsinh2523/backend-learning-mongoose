@@ -13,3 +13,15 @@ const userSchema=new mongoose.Schema({
     email:String,
     age:Number
 })
+
+const User=mongoose.model("User",userSchema);
+
+const user1=new User({
+    name:"yuvrajsinh jadeja",
+    email:"yuvrajsinhjadeja2523@gmail.com",
+    age:22
+})
+
+user1.save().then((res)=>{
+    console.log(res);
+})
