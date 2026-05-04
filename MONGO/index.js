@@ -74,3 +74,11 @@ User.deleteOne({name:"jayesh"}).then((res)=>{
 User.deleteMany({age:{$lt:25}}).then((res)=>{
     console.log(res);
 })
+
+User.findByIdAndDelete({_id:"69f878bca6d14eea0d730663"}).then((res)=>{
+    console.log(res);
+})
+
+User.findOneAndDelete({name:"viraj"}).then((res)=>{
+    console.log(res);
+})
