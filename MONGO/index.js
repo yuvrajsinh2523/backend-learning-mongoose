@@ -56,7 +56,7 @@ User.findOne({name:"vishal"}).then((data)=>{
 User.findById("69f87278fbba8bb1d5a24007").then((data)=>{
     console.log(data.name);
 })
-User.updateOne({name:"vishal"},{age:25},{new:true}).then((data)=>{
+User.updateOne({name:"vishal"},{age:25}).then((data)=>{
     console.log(data);
 })
 
