@@ -1,0 +1,129 @@
+# 📌 Mongoose CRUD Operations (Node.js + MongoDB)
+
+This project demonstrates **CRUD (Create, Read, Update, Delete)** operations using **Node.js, MongoDB, and Mongoose**.
+It is a beginner-friendly implementation to understand how Mongoose interacts with MongoDB.
+
+---
+
+## 🚀 Features
+
+* ➕ Create single and multiple users
+* 📖 Read all users and specific users
+* 🔍 Find by ID and conditions
+* ✏️ Update user data
+* 🗑️ Delete single and multiple users
+* ⚡ Uses Mongoose schema & model
+
+---
+
+## 🛠️ Tech Stack
+
+* **Backend:** Node.js
+* **Database:** MongoDB
+* **ODM:** Mongoose
+
+---
+
+## 📂 Project Structure
+
+```id="r1n3xq"
+project/
+│── index.js       # Main file (all CRUD operations)
+│── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```id="5f1l2p"
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Navigate to project folder
+
+```id="q8d2mz"
+cd your-repo-name
+```
+
+3. Install dependencies
+
+```id="2df9xt"
+npm install
+```
+
+4. Start MongoDB locally
+   Make sure MongoDB is running on:
+
+```id="m3k7dp"
+mongodb://127.0.0.1:27017/test
+```
+
+5. Run the project
+
+```id="c7p4k9"
+node index.js
+```
+
+---
+
+## 📊 CRUD Operations Covered
+
+### ➕ Create
+
+* `new User().save()`
+* `User.insertMany()`
+
+### 📖 Read
+
+* `User.find()`
+* `User.findOne()`
+* `User.findById()`
+
+### ✏️ Update
+
+* `User.updateOne()`
+* `User.findOneAndUpdate()`
+* `User.findByIdAndUpdate()`
+
+### 🗑️ Delete
+
+* `User.deleteOne()`
+* `User.deleteMany()`
+* `User.findByIdAndDelete()`
+* `User.findOneAndDelete()`
+
+---
+
+## 🧠 Learning Outcome
+
+* Understanding of **MongoDB collections & documents**
+* How **Mongoose schema and models** work
+* Performing real-world **database operations in Node.js**
+* Difference between update methods and delete methods
+
+---
+
+## 🔥 Future Improvements
+
+* 🌐 Add Express server & REST API
+* 🎯 Add validation (required fields, email format)
+* 🔐 Add authentication system
+* 📦 Convert into full-stack app (MERN)
+
+---
+
+## 👨‍💻 Author
+
+**Yuvrajsinh Jadeja**
+
+* GitHub: https://github.com/yuvrajsinh2523
+* LinkedIn: https://www.linkedin.com/in/yuvrajsinh-jadeja-19341b337
+
+---
+
+## ⭐ Support
+
+If you find this project useful, give it a ⭐ on GitHub!
