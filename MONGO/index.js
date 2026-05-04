@@ -71,3 +71,6 @@ console.log(data);
 User.deleteOne({name:"jayesh"}).then((res)=>{
     console.log(res);
 })
+User.deleteMany({age:{$lt:25}}).then((res)=>{
+    console.log(res);
+})
