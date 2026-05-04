@@ -45,3 +45,14 @@ User.insertMany([
     console.log(res);
 })
 
+User.find({}).then((res)=>{
+    console.log(res);
+})
+
+User.findOne({name:"vishal"}).then((data)=>{
+    console.log(data.name);
+})
+
+User.findById("69f87278fbba8bb1d5a24007").then((data)=>{
+    console.log(data.name);
+})
