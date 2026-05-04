@@ -63,3 +63,7 @@ User.updateOne({name:"vishal"},{age:25},{new:true}).then((data)=>{
 User.findOneAndUpdate({name:"viraj"},{age:29},{new:true}).then((data)=>{
     console.log(data);
 })
+
+User.findByIdAndUpdate({_id:"69f87278fbba8bb1d5a24006"},{name:"jayesh"},{new:true}).then((data)=>{
+console.log(data);
+})
