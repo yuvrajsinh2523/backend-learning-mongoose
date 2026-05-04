@@ -25,3 +25,23 @@ const user1=new User({
 user1.save().then((res)=>{
     console.log(res);
 })
+
+User.insertMany([
+    {
+        name:"jaydev",
+        email:"jaydev123@gmail.com",
+        age:21
+    },
+    {
+        name:"viraj",
+        email:"viraj123@gmail.com",
+        age:26
+    },{
+        name:"vishal",
+        email:"vishal123@gmail.com",
+        age:34
+    }
+]).then((res)=>{
+    console.log(res);
+})
+
